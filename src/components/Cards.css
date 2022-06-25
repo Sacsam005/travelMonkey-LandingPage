@@ -1,0 +1,157 @@
+.container {
+  max-width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+<<<<<<< HEAD
+=======
+  /* box-shadow: inset 50px 60px 80px #000000, inset -px -80px 100px #000000; */
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
+}
+
+.fa-plus {
+  content: '\f067';
+  padding: 1rem;
+}
+<<<<<<< HEAD
+
+.card {
+  width: 40%;
+  margin-top: -3rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 10px 20px black;
+}
+
+=======
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+<<<<<<< HEAD
+.card:hover~.card {
+=======
+.card:hover ~ .card {
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
+  position: relative;
+  transition: 0.4s ease-out;
+}
+
+<<<<<<< HEAD
+.card img {
+  width: 100%;
+}
+
+.card-body {
+=======
+.card {
+  width: 40%;
+  height: auto;
+  margin-top: -3rem;
+  padding-bottom: 1rem;
+  border-radius: 4%;
+  box-shadow: 0 10px 20px black;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 4%;
+}
+
+.card-body {
+  height: 20px;
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
+  padding: 2rem;
+}
+
+h6.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+.card-info {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  display: none;
+}
+
+.card-text.active {
+  display: block;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+p.card-text {
+  color: black;
+  text-align: left;
+}
+
+.card-icon {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.fa-plus:after {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 680px) {
+  .container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin: 0 auto;
+  }
+
+  .card {
+    position: relative;
+    top: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+<<<<<<< HEAD
+    margin: 2rem auto;
+    padding: 0rem;
+    box-shadow: 0 10px 20px black;
+  }
+
+  .card-body {
+    padding: 2rem;
+  }
+
+=======
+    height: auto;
+    margin: 2rem auto;
+    border-radius: 4%;
+    padding: 0rem;
+    box-shadow: 0 10px 20px black;
+  }
+  .card-body {
+    padding: 2rem;
+    height: auto;
+  }
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
+  h6.card-title {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  p.card-info {
+    font-size: 1rem;
+  }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a

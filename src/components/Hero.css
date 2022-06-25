@@ -1,0 +1,112 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+<<<<<<< HEAD
+  object-fit: contain;
+}
+
+.hero-container>h1 {
+  color: #333;
+  font-size: 8rem;
+  font-weight: 700;
+=======
+  /* box-shadow: inset 100px 80px 100px #000000, inset -100px -80px 100px #000000; */
+  object-fit: contain;
+}
+
+.hero-container > h1 {
+  color: #333;
+  font-size: 5rem;
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
+  margin-top: 9rem;
+  text-align: center;
+}
+
+<<<<<<< HEAD
+.hero-container>p {
+=======
+.hero-container > p {
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.hero-btns {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.hero-btns .btn {
+  margin: 1rem;
+}
+
+.btn-outline:hover {
+  background-color: yellowgreen;
+}
+
+.fa-typo3 {
+  margin-left: 4px;
+}
+
+@media (max-width: 680px) {
+  .hero-container {
+    width: 100%;
+    height: auto;
+    margin-top: 12rem;
+  }
+<<<<<<< HEAD
+
+  .hero-container>h1 {
+    font-size: 1.5rem;
+    margin-top: 9rem;
+  }
+
+  .hero-container>p {
+=======
+  .hero-container > h1 {
+    font-size: 1.5rem;
+    margin-top: 9rem;
+  }
+  .hero-container > p {
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 960px) {
+<<<<<<< HEAD
+  .hero-container>h1 {
+=======
+  .hero-container > h1 {
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
+    font-size: 2rem;
+    /* margin-top: -3rem; */
+  }
+
+<<<<<<< HEAD
+  .hero-container>p {
+    font-size: 1.2rem;
+  }
+}
+=======
+  .hero-container > p {
+    font-size: 1.2rem;
+  }
+}
+>>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
