@@ -13,7 +13,7 @@ export default function Grid() {
         <>
             <div className="container mobile-grid">
                 <h1 className='my-5'>Exciting Adventure Awaits You</h1>
-                <Fade top duration={1500} >
+                <Fade top duration={1200} triggerOnce={ true}>
 
                     <div className="row">
 
@@ -22,7 +22,7 @@ export default function Grid() {
                             <img src={require('./img/2.jpg')} alt="Travellers" />
                             <div className="card-body" onClick={handleClick}>
                                 <h6 className="card-title">
-                                    CAN'T-MISS LAS VEGAS ATTRACTION
+                                    CAN'T MISS LAS VEGAS ATTRACTION
                                     <i className={click ? 'fas fa-minus' : 'fas fa-plus'}></i>
                                 </h6>
                             </div>
