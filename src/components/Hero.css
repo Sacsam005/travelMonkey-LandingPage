@@ -17,7 +17,14 @@ video {
   object-fit: contain;
 }
 
-.hero-container>h1.my-5 {
+.hero-container-content {
+  width: auto;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+}
+
+.hero-container-content>h1.my-5 {
   color: #111;
   font-size: 9rem;
   font-weight: 700;
@@ -26,9 +33,9 @@ video {
   object-fit: contain;
 }
 
-.hero-container>p {
+.hero-container-content>p {
   color: #333;
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: 700;
   margin-top: 1rem;
   text-align: center;

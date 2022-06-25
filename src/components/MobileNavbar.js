@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import './Navbar.css'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 
 export default function MobileNavbar() {
     const links = [{ name: 'Home', to: '/' }, { name: 'Deals', to: '/deals' }, { name: 'Go To', to: '/goto' }, { name: 'Things To Do', to: '/todo' }];
 
-    const [click, setClick] = useState(false)
+    const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
 
@@ -21,8 +21,8 @@ export default function MobileNavbar() {
             </div>
 
             <ul className={click ? 'nav-menu active' : 'nav-menu'} >
-                {links.map(item => (<Link to={item.to} className="nav-links" onClick={closeMobileMenu}>{item.name}</Link>))}
-                <li className='nav-links btn-info'><Link to="/signup">Sign Up</Link></li>
+                {links.map(item => (<Link to={item.to} className="nav-links" key={item.name} onClick={closeMobileMenu}>{item.name}</Link>))}
+                <li className='nav-links btn-info' ><Link to="/signup">Sign Up</Link></li>
             </ul>
 
 

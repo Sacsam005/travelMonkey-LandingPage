@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import './Cards.css'
-import './Grid.css'
+import React, { useState } from 'react';
+import './Cards.css';
+import './Grid.css';
 import { Fade } from "react-awesome-reveal";
 
 export default function Grid() {
