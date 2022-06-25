@@ -22,7 +22,7 @@ export default function Cards() {
                         <img src={require('./img/1.jpg')} alt="Travellers" />
                         <div className="card-body" onClick={handleClick}>
                             <h6 className="card-title">
-                                CAN'T-MISS VEGAS ATTRACTION
+                                CAN'T MISS VEGAS ATTRACTION
                                 <i className={click ? 'fas fa-minus' : 'fas fa-plus'}></i>
                             </h6>
                         </div>

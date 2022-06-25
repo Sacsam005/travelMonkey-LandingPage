@@ -5,11 +5,7 @@ export default function Footer() {
     return (
         <>
             <div className="footer-container">
-<<<<<<< HEAD
                 <h1 className = "text-center">OUR DESTINATION PARTNERS</h1>
-=======
-                <h2><span>OUR DESTINATION PARTNERS</span></h2>
->>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
                 <div className="row-logo">
                     <div className="col-logo">
                         <img src={require('./img/p1.png')} alt="Social Links" />

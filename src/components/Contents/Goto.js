@@ -30,11 +30,7 @@ export default function Goto() {
 
                 <div className="swiper home-slider">
 
-<<<<<<< HEAD
                     <div className="swiper-wrapper swipper-no-padding">
-=======
-                    <div className="swiper-wrapper">
->>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
 
                         <div className="swiper-slide">
                             <div className="box" style={{ backgroundImage: `url(${Background1})` }}>

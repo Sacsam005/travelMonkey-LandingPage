@@ -36,11 +36,7 @@ export default function Grid() {
 
 
                         <div className="col-md-4">
-<<<<<<< HEAD
                             <img src={require('./img/3.jpg')} alt="Travellers" />
-=======
-                            <img src={require('./img/4.jpg')} alt="Travellers" />
->>>>>>> b9ec1149c1d04f3a2d9c49f5fe65388d5d186e1a
                             <div className="card-body" onClick={handleClick}>
                                 <h6 className="card-title">
                                     BEST PLACES TO VISIT
