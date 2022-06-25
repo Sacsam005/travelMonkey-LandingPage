@@ -72,12 +72,12 @@ video {
     margin-top: 12rem;
   }
 
-  .hero-container>h1.my-5 {
+  .hero-container-content>h1.my-5 {
     font-size: 5rem;
     margin-top: 9rem !important;
   }
 
-  .hero-container>p {
+  .hero-container-content>p {
     font-size: 2.5rem;
     /* margin-top: 9rem; */
   }
